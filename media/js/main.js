@@ -21,8 +21,8 @@ jQuery(document).ready(function(){
 			svgCoverLayer = sliderWrapper.find('div.cd-svg-cover'),
 			pathId = svgCoverLayer.find('path').attr('id'),
 			svgPath = Snap('#'+pathId);
-		
-		//store path 'd' attribute values	
+
+		//store path 'd' attribute values
 		var pathArray = [];
 		pathArray[0] = svgCoverLayer.data('step1');
 		pathArray[1] = svgCoverLayer.data('step6');
@@ -33,7 +33,7 @@ jQuery(document).ready(function(){
 		pathArray[6] = svgCoverLayer.data('step4');
 		pathArray[7] = svgCoverLayer.data('step9');
 		pathArray[8] = svgCoverLayer.data('step5');
-		pathArray[9] = svgCoverLayer.data('step10');	
+		pathArray[9] = svgCoverLayer.data('step10');
 
 		//update visible slide when user clicks .cd-slider-navigation buttons
 		sliderNavigation.on('click', function(event){
