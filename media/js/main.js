@@ -157,7 +157,7 @@ jQuery(document).ready(function(){
 	     opacity = $(window).scrollTop()/(scrollHeight-document.documentElement.clientHeight)
 	   }
 
-	   $('nav').css({
+	   $('.navbar').css({
 		'background-color':' rgba(204,240,240,'+ opacity + ')'
 	   })
 
