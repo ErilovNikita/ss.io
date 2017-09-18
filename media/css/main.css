@@ -1,0 +1,86 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Exo 2.0', arial;
+  background-image: url(../img/blue-lagoon-scratch-lines.png);
+}
+.navbar{
+  background-color: #ccf0f0;
+  height: 80px;
+}
+.navbar-nav a {
+  font-size: 14pt;
+  margin: 15px 0;
+}
+.navbar-brand img {
+  height: 45px;
+  margin: 0;
+}
+.content {
+  margin-top: 70px;
+}
+.container p, a {
+  font-family: "Open Sans"
+}
+.bloc-1 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #fff;
+}
+.bloc-1 h1 {
+  font-family: 'RodchenkoInlineCTT', arial;
+  font-size: 32pt;
+  color: #364E51;
+  margin: 5px;
+}
+.bloc-1 h2 {
+  color: #000;
+  font-size: 24pt;
+  margin: 15px 0 15px 5px;
+}
+.bloc-1 p {
+  margin: 5px;
+  color: #666;
+  font-size: 18px
+}
+.footer {
+  margin: 40px;
+}
+.footer p, h2 {
+  color: #fff;
+}
+.footer a {
+    color: #ffb251;
+}
+.footer i {
+    color: #fff;
+}
+.footer i:hover {
+    color: #ffb251;
+}
+@media only screen and (max-width: 768px) {
+  .navbar-toggle {
+    border: none;
+    padding: 25px 25px;
+    border-radius: 50%
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #2ea3f2;
+  }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #ccf0f0;
+  }
+  .nav {
+    background-color: #2ea3f2;
+    border-bottom: 7px solid #ccf0f0;
+  }
+  .navbar-nav {
+    margin: 0 -15px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color: #fff;
+  }
+  .navbar-default .navbar-nav>li>a:hover {
+    color: #d9d9d9;
+  }
+}
