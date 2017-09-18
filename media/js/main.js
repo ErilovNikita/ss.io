@@ -139,8 +139,6 @@ jQuery(document).ready(function(){
 
 		};
 	};
-<<<<<<< HEAD
-=======
 	
 	//Animate NavBar
 	$(window).on('scroll', function() {
@@ -164,5 +162,4 @@ jQuery(document).ready(function(){
 	   })
 
 	});
->>>>>>> 58e0c0f85516735e49e8315ea27ced7a557096d6
 });
