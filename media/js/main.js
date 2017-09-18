@@ -139,4 +139,30 @@ jQuery(document).ready(function(){
 
 		};
 	};
+<<<<<<< HEAD
+=======
+	
+	//Animate NavBar
+	$(window).on('scroll', function() {
+
+	  var scrollHeight = Math.max(
+	    document.body.scrollHeight, document.documentElement.scrollHeight,
+	    document.body.offsetHeight, document.documentElement.offsetHeight,
+	    document.body.clientHeight, document.documentElement.clientHeight
+	  );
+
+	  var opacity;
+
+	  if($(window).scrollTop() > document.documentElement.clientHeight){
+	     opacity = 1
+	   } else{
+	     opacity = $(window).scrollTop()/(scrollHeight-document.documentElement.clientHeight)
+	   }
+
+	   $('.navbar').css({
+		'background-color':' rgba(204,240,240,'+ opacity + ')'
+	   })
+
+	});
+>>>>>>> 58e0c0f85516735e49e8315ea27ced7a557096d6
 });
